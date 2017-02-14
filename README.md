@@ -1,10 +1,12 @@
 # VKNavigationBar
 
+# Heading
 What it is about? 
 
 This repository is about how to customizing a default iOS navigation bar with the way you want it i.e. the color, number of buttons, etc.
 
 
+# Heading
 How to Use it?
 
 To use this custom navigation bar you need to first hide the default Navigation that comes with every Navigation Controller. And then add these lines(Below) to your viewDidLoad(:_) function of your controller.
