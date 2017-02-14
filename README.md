@@ -25,8 +25,8 @@ All these above written lines do is Just adding a Customize Navigation Bar to yo
 7) indexOFButtonToSetTitle ==> Which button you want to set the title on. (NOTE ==> Based on this title All the Buttons Position is Maintained.)  
 8) delegateNavigation ==> Set it to self and implement the required method named ==> barItemsAction(:_), In this function the Actions of different buttons will be implemented on you controller based on Tags.  
 
-NOTE==> Total Number of Buttons are Maintained = 5, Tags are = 10, 20, 30, 40, 50  
-NOTE==> Tags starting from Left to right before Title and Right to Left After Title.  
+*NOTE==>* Total Number of Buttons are Maintained = 5, Tags are = 10, 20, 30, 40, 50  
+*NOTE==>* Tags starting from Left to right before Title and Right to Left After Title.  
 
 
 That's All.
