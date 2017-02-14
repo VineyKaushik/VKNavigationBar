@@ -7,7 +7,7 @@ This repository is about how to customizing a default iOS navigation bar with th
 
 To use this custom navigation bar you need to first hide the default Navigation that comes with every Navigation Controller. And then add these lines(Below) to your viewDidLoad(:_) function of your controller.
 
-//Adding Navigation Bar...  
+__Adding Navigation Bar ==> __  
 `let navigation = CustomizedDefaultNavigationBar(frame:CGRect(x: 0, y: 0, width: self.view.bounds.width, height: 70), buttonImage: [UIImage("EnterImageName1")....], buttonHighlightedImage:[[UIImage("EnterHighlitedName1")....]] , numberOfButtons: 2, barTitle: "Whatever", alignmentOfTitle: "Center", indexOFButtonToSetTitle: 2)  
 navigation.delegateNavigation = self  
 self.view.addSubview(navigation)`  
