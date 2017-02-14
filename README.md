@@ -9,7 +9,6 @@ To use this custom navigation bar you need to first hide the default Navigation 
 
 //Adding Navigation Bar...  
 `let navigation = CustomizedDefaultNavigationBar(frame:CGRect(x: 0, y: 0, width: self.view.bounds.width, height: 70), buttonImage: [UIImage("EnterImageName1")....], buttonHighlightedImage:[[UIImage("EnterHighlitedName1")....]] , numberOfButtons: 2, barTitle: "Whatever", alignmentOfTitle: "Center", indexOFButtonToSetTitle: 2)  
-
 navigation.delegateNavigation = self  
 self.view.addSubview(navigation)`  
 
